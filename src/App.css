@@ -1,0 +1,53 @@
+.formControl {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input,
+textarea,
+button {
+  min-width: 180px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 2px;
+  display: inline-block;
+
+}
+button {
+  margin-top: 15px;
+  padding: 6px 10px;
+  color: #fff;
+  background-color: #4338ca;
+}
+
+a {
+  text-decoration: none;
+  color: #444;
+}
+a:focus {
+  color: rgb(123, 36, 204);
+}
+ul {
+  background-color: #efefef;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 60px;
+  font-size: 18px;
+}
+ul li {
+  margin-left: 20px;
+}
+footer {
+  background-color: rgb(226, 221, 221);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
